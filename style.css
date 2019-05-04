@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+height: 100%;
+background-size: cover;
+background: linear-gradient(#ccffff,#99ffff, #66ffff, #33ffff, #00ffff);
+background-repeat: no-repeat;
+background-size: auto;
+
+}
+
+#main-nav {
+  background: #FFFFFF;
+}
+
+#title {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Gugi', cursive;
+}
