@@ -24,6 +24,9 @@ body {
 #nav-bar {
   border-bottom: 1px solid black;
   position: fixed;
+	width: 100%;
+	z-index: 5;
+	background: linear-gradient(to right, #e6ffff, #ccffff, #33ffff, #ccffff, #e6ffff);
 }
 
 #nav-bar h2 {
@@ -36,35 +39,46 @@ main {
 }
 
 
+
 #title h3 {
   text-align: center;
+	letter-spacing: 10px;
 }
 
 body h1 {
   font-family: 'Gugi', cursive;
   text-align: center;
+	margin: 20px;
+	letter-spacing: 10px;
   
 }
 
 #news {
-  width: 1000px;
+  position: relative;
+	width: 1000px;
   margin: auto;
+	top: 260px;
 }
 
 article {
 
 	width: 300px;
   display: inline-block;
-	height: 200px;
+	height: 250px;
   margin: 0;
 	padding: 0;
 
 }
 
-p {
-	 max-height: 150px;
+article p {
+	 max-height: 185px;
 	overflow: hidden;
 	
+	
+}
+
+article h4 {
+	text-align: center;
 }
 
 .article-img {
