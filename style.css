@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Gugi');
-
+@import url('https://fonts.googleapis.com/css?family=Gugi|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Cabin|Gugi|Open+Sans+Condensed:300');
 
 * {
   margin: 0;
@@ -7,22 +8,79 @@
 }
 
 html {
-height: 100%;
-background-size: cover;
-background: linear-gradient(#ccffff,#99ffff, #66ffff, #33ffff, #00ffff);
-background-repeat: no-repeat;
-background-size: auto;
-
+  position: relative;
+	height: 100%;
+	
+  
+  
+}
+body {
+	height: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: #33ffff;
+	
 }
 
-#main-nav {
-  background: #FFFFFF;
+#nav-bar {
+  border-bottom: 1px solid black;
+  position: fixed;
 }
 
-#title {
+#nav-bar h2 {
+  margin: 15px;
+}
+
+main {
+  position: relative;
+  top: 150px;
+}
+
+
+#title h3 {
   text-align: center;
 }
 
-h1 {
+body h1 {
   font-family: 'Gugi', cursive;
+  text-align: center;
+  
 }
+
+#news {
+  width: 1000px;
+  margin: auto;
+}
+
+article {
+
+	width: 300px;
+  display: inline-block;
+	height: 200px;
+  margin: 0;
+	padding: 0;
+
+}
+
+p {
+	 max-height: 150px;
+	overflow: hidden;
+	
+}
+
+.article-img {
+ 	height: 150px;
+ 	width: 100%;
+ 	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	 margin: 0;
+	
+}
+
+div {
+	
+}
+
+
+
+
