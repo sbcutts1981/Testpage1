@@ -67,6 +67,7 @@ article {
 	height: 250px;
   margin: 0;
 	padding: 0;
+	vertical-align: middle;
 
 }
 
@@ -79,6 +80,7 @@ article p {
 
 article h4 {
 	text-align: center;
+	
 }
 
 .article-img {
